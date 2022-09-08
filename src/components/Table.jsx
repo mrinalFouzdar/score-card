@@ -136,7 +136,7 @@ const Tablecmpt = () => {
                         {
 
                             data.map((item, i) => <Col key={i} className='border-end border-start ' md={1} sm={1} >
-                                <Row className='text-center border-bottom'>
+                                <Row className='text-center border-bottom '>
                                     <Col className='text-center' >
                                         {item.top}
                                     </Col>
@@ -153,9 +153,9 @@ const Tablecmpt = () => {
                         
                         {
 
-                        result.part_1.map((item, i) => <Row key={Date.now() + Math.random()} className="border-bottom">
+                        result.part_1.map((item, i) => <Row key={Date.now() + Math.random()} className="border-bottom border-top ms-0">
                             <Col md={1} className="text-center border-end p-1"> {i + 1}</Col>
-                            <Col md={6} className="text-center border-end"> {item.name}</Col>
+                            <Col md={6} className=" border-end"> {item.name}</Col>
                             <Col  className="text-center border-end"> {item.FA}</Col>
                             <Col className="text-center border-end" > {item.Oral1}</Col>
                             <Col className="text-center border-end"> {item.BA}</Col>
