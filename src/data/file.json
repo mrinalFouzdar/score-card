@@ -1,0 +1,85 @@
+{
+    "data": [
+      {
+        "id": 1,
+        
+        "name": "Mrinal",
+        "marks": [
+          {
+          "part":1,
+          "subjects": [
+            {
+              "name": "English",
+              "FA": 20,
+              "Oral1": 60,
+              "BA": 50,
+              "Oral2": 30
+            },
+            {
+              "name": "Hindi",
+              "FA": 20,
+              "Oral1": 60,
+              "BA": 50,
+              "Oral2": 30
+            },
+            {
+              "name": "Sanskrit",
+              "FA": 20,
+              "Oral1": 60,
+              "BA": 50,
+              "Oral2": 30
+            }
+          ]
+          
+        },
+          {
+          "part":2,
+          "subjects": [
+            {
+              "name": "Development and Maturity",
+               "grade":"A"
+              
+            },
+            {
+              "name": "Responsibilty",
+               "grade":"B"
+            },
+            {
+              "name": "Self Confidence",
+               "grade":"A"
+            },
+            {
+              "name": "Music",
+               "grade":"B"
+            }
+          ]
+          
+        },
+        {
+          "part":3,
+           "marks":[
+              {
+                  "type": "Term-1",
+                  "subjects":[
+                      {
+                          "name": "No of Working Days",
+                          "score":83
+                      },
+                      {
+                          "name": "No of Days present",
+                          "score":83
+                      }
+                  ]
+                 
+              }
+           ]
+          
+          
+        }
+  
+      ]
+  
+      }
+      
+    ]
+  }

@@ -4,7 +4,15 @@
     border: 1px solid black;
     box-sizing: border-box;
 } */
-
+.heading{
+    font-weight: bold;
+    margin: 0%;
+}
+.flex{
+    justify-content: space-between;
+    align-self: stretch!important;
+    align-items: stretch!important;
+}
 tr{
     text-align: center;
 }

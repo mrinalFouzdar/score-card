@@ -1,0 +1,121 @@
+{
+    "part_1":[
+        
+            {
+                "name": "English",
+                "FA": 20,
+                "Oral1": 60,
+                "BA": 50,
+                "Oral2": 30,
+                "Overall":80
+              },
+              {
+                "name": "Hindi",
+                "FA": 20,
+                "Oral1": 60,
+                "BA": 50,
+                "Oral2": 30,
+                "Overall":90
+              },
+              {
+                "name": "Sanskrit",
+                "FA": 20,
+                "Oral1": 60,
+                "BA": 50,
+                "Oral2": 30,
+                "Overall":70
+              },
+              {
+                "name": "Moral",
+                "FA": 20,
+                "Oral1": 60,
+                "BA": 40,
+                "Oral2": 30,
+                "Overall":60
+              },
+              {
+                "name": "Communication",
+                "FA": 20,
+                "Oral1": 60,
+                "BA": 40,
+                "Oral2": 30,
+                "Overall":70
+              },
+              {
+                "name": "G.K.",
+                "FA": 20,
+                "Oral1": 60,
+                "BA": 50,
+                "Oral2": 30,
+                "Overall":80
+              },
+              {
+                "name": "EVS",
+                "FA": 20,
+                "Oral1": 60,
+                "BA": 50,
+                "Oral2": 30,
+                "Overall":80
+              },
+              {
+                "name": "Computer",
+                "FA": 20,
+                "Oral1": 60,
+                "BA": 50,
+                "Oral2": 30,
+                "Overall":80
+              },
+              {
+                "name": "Math",
+                "FA": 20,
+                "Oral1": 60,
+                "BA": 50,
+                "Oral2": 30,
+                "Overall":80
+              },
+              {
+                "name": "Drawing",
+              
+                "Overall":"A"
+              }
+        
+    ],
+    "part_2":[
+        {
+            "department":"Development",
+            "grade":"A"
+        },
+        {
+            "department":"Responsiblity",
+            "grade":"A"
+        },
+        {
+            "department":"Self Confidence",
+            "grade":"A"
+        },
+        {
+            "department":"Self Confidence",
+            "grade":"A"
+        },
+        {
+            "department":"Self Confidence",
+            "grade":"A"
+        },
+        {
+            "department":"Self Confidence",
+            "grade":"A"
+        },
+        {
+            "department":"Self Confidence",
+            "grade":"A"
+        },
+        {
+            "department":"Music",
+            "grade":"B"
+        },
+        {
+            "department":"Self Confidence",
+            "grade":"A"
+        }
+    ]
+}
