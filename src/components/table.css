@@ -4,15 +4,23 @@
     border: 1px solid black;
     box-sizing: border-box;
 } */
-.heading{
+/* .heading1{
     font-weight: bold;
+    font-size: x-large;
     margin: 0%;
-}
-.flex{
+} */
+/* .flex{
     justify-content: space-between;
     align-self: stretch!important;
     align-items: stretch!important;
 }
 tr{
     text-align: center;
+} */
+
+.clrRed{
+    color: red;
+}
+.wrap{
+    /* word-wrap: break-word; */
 }
