@@ -67,3 +67,35 @@
                     </Container>
 
                 </Stack> */}
+
+
+
+
+
+                                {/* <Row >
+                        <Col className="text-center  col-1 border ">
+                        <Row >
+                            <Col>S.</Col>
+                        </Row>
+                        <Row>
+                            <Col>NO.</Col>
+                        </Row>
+                        </Col>
+                        <Col className=" col-4 border">SUBJECTS</Col>
+                        <Col className="text-center  col-7 ">
+                        <Row >
+                            <Col className="border col-2">FA</Col>
+                            <Col className="border col-2">ORAL</Col>
+                            <Col className="border col-2">SA</Col>
+                            <Col className="border col-2">ORAL</Col>
+                            <Col className="border col-4">Total Marks</Col>
+                        </Row>
+                        <Row>
+                        <Col className="border col-2">40</Col>
+                            <Col className="border col-2">10</Col>
+                            <Col className="border col-2">40</Col>
+                            <Col className="border col-2">10</Col>
+                            <Col className="border col-4" >100</Col>
+                        </Row>
+                        </Col>
+                    </Row> */}

@@ -24,3 +24,6 @@ tr{
 .wrap{
     /* word-wrap: break-word; */
 }
+.width{
+    width: 100%;
+}
