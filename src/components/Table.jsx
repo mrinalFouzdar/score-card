@@ -131,7 +131,7 @@ const Tablecmpt = () => {
                             </Col>
                         </Row>
                         <Row>
-                        <Col className='text-center' >Sr No</Col>
+                        <Col className='text-center' >SR No</Col>
                         <Col md={6} sm={3} className="border-start text-center">Subject</Col>
                         {
 
