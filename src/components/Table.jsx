@@ -67,7 +67,7 @@ const Tablecmpt = () => {
                 </Row>
                 <Row>
                     <Col className='text-center'>
-                    <p className='heading border-bottom mb-0'> ACADEMIC PERFORMANCE</p>
+                    <p className='heading border-bottom mb-0'> 1ACADEMIC PERFORMANCE</p>
                     </Col>   
                 </Row>
                 {/* <Row>
