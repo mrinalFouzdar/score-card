@@ -29,29 +29,30 @@ const Tablecmpt = () => {
                                 Part1
                             </Col>
                         </Row>
-                        <Row className='ms-0'>
-                            <Col className='text-center' md={1} sm={1} xs={2} >Sr No</Col>
-                            <Col md={6} sm={3} xs={5} className="border-start text-center">Subject</Col>
-                            {
+                        <Row>
+                        <Col className='text-center' >Sr No</Col>
+                        <Col md={6} sm={3} className="border-start text-center">Subject</Col>
+                        {
 
-                                data.map((item, i) => <Col key={i} className='border-end border-start ' md={1} sm={2} xs={1} >
-                                    <Row className=' border-bottom '>
-                                        <Col className=' text-wrap text-center ' md={1} sm={1} xs={1} >
-                                            <span>{item.top}</span>
-                                        </Col>
-                                    </Row>
-                                    <Row className='text-center '>
-                                        <Col className='text-center ' md={1} sm={1} xs={1}>
-                                            {item.btm}
-                                        </Col>
-                                    </Row>
-                                </Col>)
+                            data.map((item, i) => <Col key={i} className='border-end border-start ' md={1} sm={1} >
+                                <Row className='text-center border-bottom '>
+                                    <Col className='text-center' >
+                                        {item.top}
+                                    </Col>
+                                </Row>
+                                <Row className='text-center '>
+                                    <Col className='text-center'>
+                                        {item.btm}
+                                    </Col>
+                                </Row>
+                            </Col>)
                             }
                         </Row>
 
 
                         {
 
+<<<<<<< HEAD
                             result.part_1.map((item, i) => <Row key={Date.now() + Math.random()} className="border-bottom border-top ms-0">
                                 <Col md={1} sm={1} xs={2} className="text-center border-end "> {i + 1}</Col>
                                 <Col md={6} sm={3} xs={5} className=" border-end"> {item.name}</Col>
@@ -61,6 +62,17 @@ const Tablecmpt = () => {
                                 <Col className="text-center border-end" md={1} sm={1} xs={1}> {item.Oral2}</Col>
                                 <Col className="text-center border-end" md={1} sm={1} xs={1}> {item.Overall}</Col>
                             </Row>)
+=======
+                        result.part_1.map((item, i) => <Row key={Date.now() + Math.random()} className="border-bottom border-top ms-0">
+                            <Col className="text-center border-end p-1"> {i + 1}</Col>
+                            <Col  className=" border-end"> {item.name}</Col>
+                            <Col  className="text-center border-end"> {item.FA}</Col>
+                            <Col className="text-center border-end" > {item.Oral1}</Col>
+                            <Col className="text-center border-end"> {item.BA}</Col>
+                            <Col className="text-center border-end"> {item.Oral2}</Col>
+                            <Col className="text-center border-end"> {item.Overall}</Col>
+                        </Row>)
+>>>>>>> b497c228e0636dd395bf9f995ee4a03cafc47fad
                         }
                         <Row className=' ms-0 border-bottom'>
                             <Col md={7} className="border-end text-center m-0 ">
