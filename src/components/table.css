@@ -18,12 +18,16 @@ tr{
     text-align: center;
 } */
 
-.clrRed{
+/* .clrRed{
     color: red;
-}
+} */
 .wrap{
     /* word-wrap: break-word; */
 }
-.width{
+/* .width{
     width: 100%;
+} */
+
+.overflow{
+    overflow-y: hidden;
 }
