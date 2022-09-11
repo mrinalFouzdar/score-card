@@ -7,7 +7,7 @@ const Part2 = () => {
     <>
      <Col>
                             <Row className='border-bottom border-secondary'>
-                                <Col className='text-center '> Part2</Col>
+                                <Col className='text-center text-primary'> Part2 Co- Scholastic Areas</Col>
                             </Row>
 
                             <Row className='border-bottom border-secondary '>
