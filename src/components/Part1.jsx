@@ -1,8 +1,8 @@
 import React from 'react'
 import {  Row, Col } from 'react-bootstrap';
 import result from "../data/result.json"
-// import { percentage, sum } from '../shared/helper';
-import "./table.css"
+import { percentage, sum } from '../shared/helper';
+import "./style.css"
 const Part1 = () => {
   return (
     <>
@@ -22,7 +22,7 @@ const Part1 = () => {
 
                                 <Col md={5}  sm={8} xs={6}>
                                     <Row>
-                                        <Col md={2} xs={2} sm={2} className="text-center border-end border-secondary paddingZero">
+                                        <Col md={2} xs={2} sm={2} className="paddingZero text-center border-end border-secondary paddingZero">
                                             FA
                                         </Col>
                                         <Col md={2} xs={2} sm={2} className="text-center border-end border-secondary paddingZero">
@@ -94,7 +94,7 @@ const Part1 = () => {
                                 <Col md={5} sm={8} xs={6} className="text-end">
                                 <Row>
                                 <Col xs={{span:4 , offset:8}} className="text-center">
-                                            {/* {sum(result.part_1)|| "0"} */}
+                                            {sum(result.part_1)}
                                 </Col>
                                </Row>
                                 </Col>
@@ -106,7 +106,7 @@ const Part1 = () => {
                                 <Row>
 
                                         <Col xs={{span:4 , offset:8}} className="text-center">
-                                            {/* {percentage(result.part_1)||0} */}
+                                            {percentage(result.part_1)}
                                         </Col>
                                     </Row>
                                 </Col>
