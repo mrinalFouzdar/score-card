@@ -3,7 +3,6 @@ import React from 'react'
 // import showData from "../data/file.json"
 import result from "../data/result.json"
 import { Container, Row, Col } from 'react-bootstrap';
-import Section1 from './Section1';
 
 const data = [{ top: "", btm: "20" }, { top: "Oral", btm: "10" }, { top: "BA", btm: "70" }, { top: "Oral", btm: 80 }, { top: "total marks", btm: 100 }]
 
@@ -31,9 +30,9 @@ const Tablecmpt = () => {
                                     Part1
                                 </Col>
                             </Row>
-                        {/* <Section1/> */}
 
-                        <Row className='border-bottom border-secondary'>
+
+                            <Row className='border-bottom border-secondary'>
                                 <Col className='text-center border-end border-secondary' md={1} sm={1} xs={1} >
                                     Sr No
                                 </Col>
@@ -75,12 +74,22 @@ const Tablecmpt = () => {
                                         </Col>
                                     </Row>
 
-
-                                    <Row>
-
-                                    </Row>
                                 </Col>
                             </Row>
+
+                            {
+
+                        result.part_1.map((item, i) => <Row key={Date.now() + Math.random()} className="border-bottom border-top ms-0">
+                            <Col  md={1} sm={1} xs={1} className="text-center border-end "> {i + 1}</Col>
+                            <Col  md={5}  sm={8} xs={8}className=" border-end"> {item.name}</Col>
+                            <Col className="text-center border-end" md={2} xs={2} sm={2}> {item.FA}</Col>
+                            <Col className="text-center border-end" md={1} sm={1} xs={1} > {item.Oral1}</Col>
+                            <Col className="text-center border-end" md={1} sm={1} xs={1}> {item.BA}</Col>
+                            <Col className="text-center border-end" md={1} sm={1} xs={1}> {item.Oral2}</Col>
+                            <Col className="text-center border-end" md={1} sm={1} xs={1}> {item.Overall}</Col>
+                        </Row>)
+                        }
+
                         </Col>
 
 
